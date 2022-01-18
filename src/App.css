@@ -1,0 +1,44 @@
+.app-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.figure-counter-title {
+  color: #00f;
+}
+
+.top-box-sortable {
+  display: flex;
+  align-items: center;
+  border: 3px solid #000;
+  border-radius: 15px;
+  min-height: 100px;
+  min-width: 200px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.bottom-box-sortable {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  min-height: 50px;
+  min-width: 200px;
+  padding: 20px;
+}
+
+.red-rectangle {
+  height: 40px;
+  width: 60px;
+  background: #f00;
+  margin-right: 10px;
+}
+
+.green-ellipse {
+  height: 40px;
+  width: 40px;
+  background: #006400;
+  border-radius: 30px;
+  margin-right: 10px;
+}
